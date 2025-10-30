@@ -1,0 +1,40 @@
+# Xcode
+*.xcuserdatad
+xcuserdata/
+
+# Build products
+build/
+*.app.dSYM
+*.dSYM
+
+# Derived Data
+DerivedData/
+
+# Swift intermediate files
+*.swiftdoc
+*.swiftmodule
+
+# Various
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+
+# CocoaPods
+Pods/
+*.podspec
+*.framework
+*.xcconfig
+*.generated.plist
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Swift Package Manager
+.build/
+Package.resolved
