@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76137C2EB5979600B47C9F /* CoreDataModel.swift */; };
 		FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */; };
 		FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */; };
 		FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA76137C2EB5979600B47C9F /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
 		FAAFF2562EB41CD5002F5F7F /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */,
 				FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */,
 				FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */,
+				FA76137C2EB5979600B47C9F /* CoreDataModel.swift */,
 				FAAFF2622EB41CDA002F5F7F /* Assets.xcassets */,
 				FAAFF2642EB41CDA002F5F7F /* LaunchScreen.storyboard */,
 				FAAFF2672EB41CDA002F5F7F /* Info.plist */,
@@ -135,6 +138,7 @@
 			files = (
 				FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */,
 				FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */,
+				FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */,
 				FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
