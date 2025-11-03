@@ -13,6 +13,10 @@
 		FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */; };
 		FAAFF2632EB41CDA002F5F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAFF2622EB41CDA002F5F7F /* Assets.xcassets */; };
 		FAAFF2662EB41CDA002F5F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAFF2642EB41CDA002F5F7F /* LaunchScreen.storyboard */; };
+		FAE1CF4B2EB7E3BE000F74DF /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1CF4A2EB7E3BE000F74DF /* DataServiceProtocol.swift */; };
+		FAE1CF4E2EB7E4BE000F74DF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1CF4D2EB7E4BE000F74DF /* DataService.swift */; };
+		FAFCAFBC2EB6D13100C04013 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCAFBB2EB6D13100C04013 /* Task+CoreDataClass.swift */; };
+		FAFCAFBF2EB6D16200C04013 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCAFBE2EB6D16200C04013 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FAAFF2622EB41CDA002F5F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAFF2652EB41CDA002F5F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAFF2672EB41CDA002F5F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE1CF4A2EB7E3BE000F74DF /* DataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		FAE1CF4D2EB7E4BE000F74DF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FAFCAFBB2EB6D13100C04013 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FAFCAFBE2EB6D16200C04013 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */,
 				FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */,
 				FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */,
-				FA76137C2EB5979600B47C9F /* CoreDataModel.swift */,
+				FAFCAFB92EB6D0E200C04013 /* CoreData */,
 				FAAFF2622EB41CDA002F5F7F /* Assets.xcassets */,
 				FAAFF2642EB41CDA002F5F7F /* LaunchScreen.storyboard */,
 				FAAFF2672EB41CDA002F5F7F /* Info.plist */,
 			);
 			path = ToDo;
+			sourceTree = "<group>";
+		};
+		FAFCAFB92EB6D0E200C04013 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FA76137C2EB5979600B47C9F /* CoreDataModel.swift */,
+				FAFCAFBB2EB6D13100C04013 /* Task+CoreDataClass.swift */,
+				FAFCAFBE2EB6D16200C04013 /* CoreDataStack.swift */,
+				FAE1CF4D2EB7E4BE000F74DF /* DataService.swift */,
+				FAE1CF4A2EB7E3BE000F74DF /* DataServiceProtocol.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */,
+				FAFCAFBC2EB6D13100C04013 /* Task+CoreDataClass.swift in Sources */,
 				FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */,
+				FAFCAFBF2EB6D16200C04013 /* CoreDataStack.swift in Sources */,
+				FAE1CF4B2EB7E3BE000F74DF /* DataServiceProtocol.swift in Sources */,
 				FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */,
 				FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */,
+				FAE1CF4E2EB7E4BE000F74DF /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
