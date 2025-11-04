@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76137C2EB5979600B47C9F /* CoreDataModel.swift */; };
+		FA91F4AD2EB98A21002A011A /* TaskListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F4AC2EB98A21002A011A /* TaskListVM.swift */; };
 		FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */; };
 		FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */; };
 		FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		FA76137C2EB5979600B47C9F /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		FA91F4AC2EB98A21002A011A /* TaskListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVM.swift; sourceTree = "<group>"; };
 		FAAFF2562EB41CD5002F5F7F /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA91F4AB2EB989FA002A011A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA91F4AC2EB98A21002A011A /* TaskListVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		FAAFF24D2EB41CD5002F5F7F = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		FAAFF2582EB41CD5002F5F7F /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				FA91F4AB2EB989FA002A011A /* ViewModel */,
 				FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */,
 				FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */,
 				FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */,
@@ -163,6 +174,7 @@
 				FAE1CF4B2EB7E3BE000F74DF /* DataServiceProtocol.swift in Sources */,
 				FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */,
 				FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */,
+				FA91F4AD2EB98A21002A011A /* TaskListVM.swift in Sources */,
 				FAE1CF4E2EB7E4BE000F74DF /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
