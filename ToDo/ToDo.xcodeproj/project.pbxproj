@@ -10,7 +10,6 @@
 		FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76137C2EB5979600B47C9F /* CoreDataModel.swift */; };
 		FA871DB22EBAB820000404A3 /* TaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA871DB12EBAB820000404A3 /* TaskListVC.swift */; };
 		FA91F4AD2EB98A21002A011A /* TaskListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F4AC2EB98A21002A011A /* TaskListVM.swift */; };
-		FAA018392EBB4A2E00AA5290 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA018382EBB4A2E00AA5290 /* Tests.swift */; };
 		FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */; };
 		FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */; };
 		FAAFF25E2EB41CD5002F5F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFF25D2EB41CD5002F5F7F /* ViewController.swift */; };
@@ -26,7 +25,6 @@
 		FA76137C2EB5979600B47C9F /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
 		FA871DB12EBAB820000404A3 /* TaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVC.swift; sourceTree = "<group>"; };
 		FA91F4AC2EB98A21002A011A /* TaskListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVM.swift; sourceTree = "<group>"; };
-		FAA018382EBB4A2E00AA5290 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		FAAFF2562EB41CD5002F5F7F /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAFF2592EB41CD5002F5F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAFF25B2EB41CD5002F5F7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				FA871DB12EBAB820000404A3 /* TaskListVC.swift */,
-				FAA018382EBB4A2E00AA5290 /* Tests.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 				FAFCAFBC2EB6D13100C04013 /* Task+CoreDataClass.swift in Sources */,
 				FAAFF25A2EB41CD5002F5F7F /* AppDelegate.swift in Sources */,
 				FAFCAFBF2EB6D16200C04013 /* CoreDataStack.swift in Sources */,
-				FAA018392EBB4A2E00AA5290 /* Tests.swift in Sources */,
 				FAE1CF4B2EB7E3BE000F74DF /* DataServiceProtocol.swift in Sources */,
 				FA76137D2EB5979600B47C9F /* CoreDataModel.swift in Sources */,
 				FAAFF25C2EB41CD5002F5F7F /* SceneDelegate.swift in Sources */,

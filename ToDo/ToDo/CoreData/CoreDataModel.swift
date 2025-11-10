@@ -45,7 +45,7 @@ enum CoreDataModel {
         // statusAttribute.defaultValue = "todo"
         
         let createdAtAttribute = NSAttributeDescription()
-        createdAtAttribute.name = "date"
+        createdAtAttribute.name = "createdAt"
         createdAtAttribute.attributeType = .dateAttributeType
         createdAtAttribute.isOptional = false
         
