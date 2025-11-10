@@ -13,12 +13,33 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let scene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.windowScene = scene
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
-        window?.makeKeyAndVisible()
         
+        guard let windowScene = scene as? UIWindowScene else { return }
+        
+        let window = UIWindow(windowScene: windowScene)
+        
+        let coreDataStsck = CoreDataStack()
+        
+        let data = DataService(coreDataStack: coreDataStsck)
+        
+        let vm = TaskListVM(dataService: data)
+        
+        let vc = TaskListVC(vm: vm)
+        
+        let navController = UINavigationController(rootViewController: vc)
+        
+        window.rootViewController = navController
+        self.window = window
+        window.makeKeyAndVisible()
+        
+        coreDataStsck.setupStack { error in
+            if let error = error {
+                
+                // here will present alert for user
+                
+                fatalError("fatal error in core data \(error.localizedDescription)")
+            }
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
